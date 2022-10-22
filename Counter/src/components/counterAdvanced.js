@@ -1,3 +1,5 @@
+// LEVEL 2 - ADVANCED COUNTER
+
 // This is the advanced counter. It is similar to the basic counter, but we will add some more functionality.
 
 function CounterAdvanced({ count, increment, decrement, reset }) {
