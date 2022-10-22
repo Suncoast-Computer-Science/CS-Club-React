@@ -8,7 +8,7 @@
 // 2. Display some text other than just the 'count' variable
 // 3. Don't let the counter go negative (hint: set it to 0 if you are going to decrement below 0)
 // 4. Initialize the counter with a number other than 0
-// 5. Initialize the counter with a random number each time
+// 5. Initialize the counter with a random number each time (hint: Math.floor(Math.random)) will give you a random integer)
 // 6. Change the text once you get past a milestone- like a count of 100
 
 // Your code goes here:
