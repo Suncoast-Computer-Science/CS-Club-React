@@ -1,6 +1,7 @@
 import "./App.css";
 import { useState } from "react";
-import CounterBasic from "./components/counter_basic";
+import CounterBasic from "./components/counterBasic";
+import CounterAdvanced from "./components/counterAdvanced";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,7 +20,8 @@ function App() {
 
   return (
     <div className="App">
-      <CounterBasic count={count} increment={increment} decrement={decrement} reset={reset} />
+      <CounterBasic></CounterBasic>
+      {/* <CounterAdvanced count={count} increment={increment} decrement={decrement} reset={reset} /> */}
     </div>
   );
 }

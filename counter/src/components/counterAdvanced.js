@@ -1,6 +1,6 @@
-function CounterBasic({ count, increment, decrement, reset }) {
+function CounterAdvanced({ count, increment, decrement, reset }) {
   return (
-    <div className="Counter_basic">
+    <div className="CounterAdvanced">
       <h1> Counter </h1>
       <p> {count} </p>
       <button onClick={increment}>Increment</button>
@@ -10,4 +10,4 @@ function CounterBasic({ count, increment, decrement, reset }) {
   );
 }
 
-export default CounterBasic;
+export default CounterAdvanced;
