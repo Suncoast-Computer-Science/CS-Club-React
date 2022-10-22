@@ -1,0 +1,13 @@
+.app {
+  padding: 30px;
+  border: thin solid gray;
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+}
