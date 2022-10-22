@@ -25,3 +25,20 @@ button:hover {
 button:active {
   background-color: lightblue;
 }
+
+.hundredHeading {
+  height: 50px;
+  transition: all .25s;
+  overflow: hidden;
+  user-select: none;
+}
+
+.hundredHeading:hover {
+  transform: scale(150%);
+  cursor:pointer;
+}
+
+.hundredHeading:active {
+  transform: scale(120%);
+  filter:hue-rotate(180deg)
+}
