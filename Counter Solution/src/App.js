@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      <CounterBasic></CounterBasic>
+      <CounterBasic count={count} increment={increment} />
       {/* <CounterAdvanced count={count} increment={increment} decrement={decrement} reset={reset} /> */}
     </div>
   );
