@@ -5,9 +5,10 @@
 
 // Some challenges:
 // 1. Create a button that increments or decrements by different amounts other than 1
-// 2. Display some text other than just the 'count' variable 
+// 2. Display some text other than just the 'count' variable
 // 3. Don't let the counter go negative (maybe reset it to 0 if you are going to go to a negative number)
-// 4. Initialize the counter with a number other than 0 
+// 4. Initialize the counter with a number other than 0
 // 5. Initialize the counter with a random number each time
+// 6. Change the text once you get past a milestone- like a count of 100
 
 // Your code goes here:
