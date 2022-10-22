@@ -2,6 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import CounterBasic from "./components/counterBasic";
 import CounterAdvanced from "./components/counterAdvanced";
+import myCounter from "./components/myCounter";
 
 function App() {
   const [count, setCount] = useState(0);
