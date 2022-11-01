@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Todo({ todo, index, markTodo, removeTodo }) {
   return (
-    <div className="todo">
+    <div className="todo mt-1">
       <span style={{ textDecoration: todo.isDone ? "line-through" : "" }}>
         {todo.text}
       </span>

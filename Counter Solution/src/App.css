@@ -26,6 +26,7 @@ button:active {
   background-color: lightblue;
 }
 
+/* Challenge 6 */
 .hundredHeading {
   height: 50px;
   transition: all .25s;
