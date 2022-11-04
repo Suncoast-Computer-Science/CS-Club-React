@@ -11,24 +11,21 @@ function FormTodo({ addTodo }) {
     addTodo(value);
     setValue("");
   };
+  const handleChange = (e) => {
+    e.preventDefault();
+    setValue(e.target.value);
+  };
   return (
-    <Form onSubmit={handleSubmit}>
-      <Form.Group>
-        <Form.Label>
-          <b>Add Todo</b>
-        </Form.Label>
-        <Form.Control
-          type="text"
-          className="input"
-          value={value}
-          onChange={(e) => setValue(e.target.value)}
-          placeholder="Add new todo"
-        />
-      </Form.Group>
-      <Button variant="primary mt-1 mb-3" type="submit">
-        Submit
-      </Button>
-    </Form>
+    <form onSubmit={handleSubmit}>
+      <input
+        className="input"
+        type="text"
+        value={value}
+        onChange={handleChange}
+        placeholder="Enter todo"
+      ></input>
+      <button type="submit">Add Todo</button>
+    </form>
   );
 }
 
